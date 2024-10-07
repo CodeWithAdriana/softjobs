@@ -1,0 +1,39 @@
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Environment variables
+.env
+
+# Dependencias de Node.js
+node_modules/
+database/
+
+# Directorios de build
+dist/
+dist-ssr/
+build/
+
+# Archivos locales
+*.local
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Configuración de editores
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Excepciones para la configuración de VSCode
+!.vscode/extensions.json
